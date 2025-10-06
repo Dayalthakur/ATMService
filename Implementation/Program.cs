@@ -19,9 +19,16 @@
             }
             public void Deposit(int amount)
             {
-                _balance += amount;
-                Console.WriteLine($"Amount Deposited: {amount}");
-                Console.WriteLine($"New Balance {_balance}");
+                if (amount >= 0)
+                {
+                    _balance += amount;
+                    Console.WriteLine($"Amount Deposited: {amount}");
+                    Console.WriteLine($"New Balance {_balance}");
+                }
+                else
+                {
+                    Console.WriteLine("Amount should be greater than 0");
+                }
             }
             public void WithDraw(int amount)
             {
@@ -30,6 +37,10 @@
                     _balance -= amount;
                     Console.WriteLine($"Amount Withdrawn :{amount}");
                     Console.WriteLine($"New Balance : {_balance}");
+                }
+                else
+                {
+                    Console.WriteLine("Your balance amount is less than the entered amount");
                 }
             }
         }
@@ -49,6 +60,7 @@
                 if (!int.TryParse(Console.ReadLine(), out option))
                 {
                     Console.WriteLine("Invalid input. Please enter a number.");
+                    //continue;
                 }
                 switch (option)
                 {

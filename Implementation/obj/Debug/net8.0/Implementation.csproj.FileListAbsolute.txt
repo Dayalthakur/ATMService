@@ -26,3 +26,4 @@ C:\Users\dayal\Downloads\Implementation\Implementation\Implementation\obj\Debug\
 C:\Users\dayal\Downloads\Implementation\Implementation\Implementation\obj\Debug\net8.0\Implementation.pdb
 C:\Users\dayal\Downloads\Implementation\Implementation\Implementation\obj\Debug\net8.0\Implementation.genruntimeconfig.cache
 C:\Users\dayal\Downloads\Implementation\Implementation\Implementation\obj\Debug\net8.0\ref\Implementation.dll
+C:\Users\dayal\Downloads\Implementation\Implementation\Implementation\obj\Debug\net8.0\Implementation.sourcelink.json
